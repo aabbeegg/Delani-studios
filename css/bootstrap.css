@@ -1,14 +1,33 @@
-.delani
-    {
-      position:absolute;
-      top: 10px;
-      left: 10px;
-      z-index: 1;
+.delani{
+    width: 75rem;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50%;  
     }
-    .delanilogo
-    {
-      position:absolute;
-      top: 25px;
-      left: 25px;
-      z-index: 2;
+    .logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
+    .logo{
+        float:top;
+        height: 100px;
+        width:100px;
+    }
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .mouseclick{
+          position: bottom;
+      }
