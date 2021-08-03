@@ -33,6 +33,7 @@ h1{
       }
       .mouseclick{
           position: bottom;
+          margin:50px
       }
       h2{
           text-align: center;
@@ -47,4 +48,16 @@ h1{
         margin-left: auto;
         margin-right: auto; 
         width: 50%;  
+        display: flex;
+          }
+      h4{
+          text-align: center;
+      }  
+      .design{
+          align-items: left;
       }
+      h6{
+          text-align: center;
+          font-size: 0.8rem;
+      }
+      
